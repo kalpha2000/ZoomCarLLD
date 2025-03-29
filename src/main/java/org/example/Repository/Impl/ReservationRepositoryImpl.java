@@ -6,7 +6,7 @@ import org.example.dto.Reservation;
 public class ReservationRepositoryImpl implements ReservationRepository {
     @Override
     public Reservation getReservationById(String id) {
-
+        return null;
     }
 
     @Override

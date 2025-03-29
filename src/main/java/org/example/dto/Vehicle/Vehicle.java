@@ -10,7 +10,6 @@ import org.example.enums.VehicleType;
 import java.util.UUID;
 
 @Data
-@Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public abstract class Vehicle {
     String id;

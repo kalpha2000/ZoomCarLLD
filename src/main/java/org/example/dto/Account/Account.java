@@ -6,7 +6,6 @@ import lombok.Data;
 import lombok.experimental.FieldDefaults;
 
 @Data
-@Builder
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public abstract class Account {
     String id;
