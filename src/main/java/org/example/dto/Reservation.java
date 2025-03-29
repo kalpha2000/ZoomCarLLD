@@ -2,12 +2,12 @@ package org.example.dto;
 
 import lombok.Builder;
 import lombok.Data;
-import org.example.enums.VehicleType;
+import org.example.dto.Vehicle.Vehicle;
 
 @Data
 @Builder
 public class Reservation {
     String resId;
-    VehicleType vehicleType;
+    String vehicleId;
     String userId;
 }

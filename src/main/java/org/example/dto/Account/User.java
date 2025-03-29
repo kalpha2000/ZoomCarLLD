@@ -5,6 +5,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.FieldDefaults;
+import org.example.dto.Reservation;
+
+import java.util.List;
 
 @Data
 @Builder
@@ -12,4 +15,5 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class User extends Account {
     String licenseInfo;
+    List<String> reservationIds;
 }
